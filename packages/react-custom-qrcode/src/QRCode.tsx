@@ -1,16 +1,16 @@
 import React, { createElement, useMemo } from 'react';
-import { convertColors, renderColors, RenderColors } from './qrcode/colors';
+import { convertColors, renderColors, RenderColors } from './colors';
 
 import QRCodeGenerator, { QRCodeErrorCorrectionLevel } from 'qrcode';
-import { Background, BackgroundProps } from './qrcode/Background';
-import { maskModules } from './qrcode/utils';
-import { ModulesProps } from './qrcode/modules/interface';
-import { EyeContainerProps } from './qrcode/eyeContainer/interface';
-import { EyeProps } from './qrcode/eye/interface';
-import { FinderPattern } from './qrcode/FinderPattern';
-import { RectEye } from './qrcode/eye/RectEye';
-import { RectEyeContainer } from './qrcode/eyeContainer/RectEyeContainer';
-import { HorizontalSegmentRectModules } from './qrcode/modules/HorizontalSegmentRectModules';
+import { Background, BackgroundProps } from './Background';
+import { maskModules } from './utils';
+import { ModulesProps } from './modules/interface';
+import { EyeContainerProps } from './eyeContainer/interface';
+import { EyeProps } from './eye/interface';
+import { FinderPattern } from './FinderPattern';
+import { RectEye } from './eye/RectEye';
+import { RectEyeContainer } from './eyeContainer/RectEyeContainer';
+import { HorizontalSegmentRectModules } from './modules/HorizontalSegmentRectModules';
 
 export interface QRCodeProps {
   text: string;
