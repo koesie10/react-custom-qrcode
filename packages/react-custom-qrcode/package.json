@@ -1,6 +1,6 @@
 {
   "name": "react-custom-qrcode",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Easily customize QR code rendering to fit your needs",
   "author": "Koen Vlaswinkel <koen@vlaswinkel.info>",
   "homepage": "https://github.com/koesie10/react-custom-qrcode",
