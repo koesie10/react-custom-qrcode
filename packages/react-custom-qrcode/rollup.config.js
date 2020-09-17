@@ -26,8 +26,9 @@ const config = {
         babel({
             extensions,
             babelHelpers: 'runtime',
-            plugins: ['@babel/plugin-transform-runtime'],
+            plugins: ['@babel/plugin-transform-runtime', '@babel/plugin-proposal-optional-chaining'],
             presets: [
+                ['@babel/preset-env', { loose: true, modules: false, targets: '>1%, not dead, not ie 11, not op_mini all' }],
                 '@babel/preset-typescript',
                 '@babel/preset-react'
             ]
