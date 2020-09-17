@@ -1,7 +1,6 @@
 {
     "extends": "./tsconfig.build.json",
     "compilerOptions": {
-        "baseUrl": ".",
         "jsx": "react",
         "esModuleInterop": true,
         "skipLibCheck": true

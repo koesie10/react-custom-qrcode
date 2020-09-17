@@ -2,12 +2,9 @@
     "compilerOptions": {
         "module": "esnext",
         "target": "esnext",
-        "moduleResolution": "node",
-        "sourceMap": true,
-        "declaration": true
+        "moduleResolution": "node"
     },
     "exclude": [
-        "node_modules",
-        "dist"
+        "node_modules"
     ]
 }

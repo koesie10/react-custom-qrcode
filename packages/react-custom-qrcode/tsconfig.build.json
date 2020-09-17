@@ -1,12 +1,11 @@
 {
     "extends": "../../tsconfig.build.json",
     "compilerOptions": {
-        "outDir": "./dist",
         "jsx": "react",
-        "esModuleInterop": true,
-        "declarationDir": "./dist"
+        "esModuleInterop": true
     },
     "include": [
+        "react-custom-qrcode.ts",
         "src/**/*"
     ]
 }
