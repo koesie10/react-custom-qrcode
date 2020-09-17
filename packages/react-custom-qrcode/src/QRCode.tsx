@@ -4,13 +4,10 @@ import { convertColors, renderColors, RenderColors } from './colors';
 import QRCodeGenerator, { QRCodeErrorCorrectionLevel } from 'qrcode';
 import { Background, BackgroundProps } from './Background';
 import { maskModules } from './utils';
-import { ModulesProps } from './modules/interface';
-import { EyeContainerProps } from './eyeContainer/interface';
-import { EyeProps } from './eye/interface';
+import { HorizontalSegmentRectModules, ModulesProps } from './modules';
+import { EyeContainerProps, RectEyeContainer } from './eyeContainer';
+import { EyeProps, RectEye } from './eye';
 import { FinderPattern } from './FinderPattern';
-import { RectEye } from './eye/RectEye';
-import { RectEyeContainer } from './eyeContainer/RectEyeContainer';
-import { HorizontalSegmentRectModules } from './modules/HorizontalSegmentRectModules';
 
 export interface QRCodeProps {
   text: string;
