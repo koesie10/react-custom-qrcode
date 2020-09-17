@@ -144,7 +144,6 @@ QRCode.defaultProps = {
     eye: '#000',
     background: '#fff',
     modules: '#000',
-    logo: '#000',
   },
   renderedImageSize: 8,
   backgroundComponent: Background,

@@ -2,12 +2,14 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "prettier": "^2.1.2"
   },
   "scripts": {
     "clean": "lerna run clean",
     "build": "lerna run build",
-    "pub": "lerna publish"
+    "pub": "lerna publish",
+    "prettier": "prettier --write \"packages/**/*.{js,jsx,ts,tsx}\""
   },
   "version": "0.0.1"
 }
