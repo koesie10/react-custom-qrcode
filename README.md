@@ -16,6 +16,10 @@
 yarn add react-custom-qrcode
 ```
 
+## Documentation
+
+A Storybook is available [here](https://koesie10.github.io/react-custom-qrcode/react-custom-qrcode/index.html).
+
 ## Example usage
 
 ```typescript jsx
@@ -45,6 +49,10 @@ ReactDOM.render(
   el
 );
 ```
+
+## Details
+
+Uses [qrcode](https://github.com/soldair/node-qrcode) for creating the QR code.
 
 ## Contributing
 
